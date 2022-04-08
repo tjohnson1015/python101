@@ -9,13 +9,4 @@ username = firstname[0:3].lower() + '_' + lastname[0:5].lower()
 
 contact_card = greeting + "\nEmail: " + company_email + "\nUsername: " + username
 
-def names():
-    print(greeting)
-
-def email():
-    print(company_email)
-
-# names()
-email()
-
 
